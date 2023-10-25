@@ -1,4 +1,40 @@
+html,
 body {
-  background-color: rgb(156, 156, 219);
-  color: beige;
+  height: 100vh;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+  color: rgb(50, 50, 50);
+  margin: 0;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  height: 100%;
+}
+
+.page-header {
+  height: 100px;
+  background-color: rgb(225, 218, 232);
+}
+
+.content-wrapper {
+  background-color: blanchedalmond;
+  flex-grow: 1;
+}
+
+.content-container {
+  background-color: rgb(177, 137, 215);
+  height: 100%;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.page-footer {
+  height: 100px;
+  background-color: rgb(119, 203, 156);
 }
